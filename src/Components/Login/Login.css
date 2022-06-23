@@ -1,0 +1,81 @@
+.form-container {
+  width: 600px;
+  margin: 20px auto;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 13px 12px 0px #ffe0b3;
+  padding: 20px 0px;
+}
+.form-title {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 35px;
+  color: #2a414f;
+  text-align: center;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+.input-group label {
+  display: block;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.input-group input {
+  width: 415px;
+  height: 55px;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  font-size: 24px;
+}
+.form-submit {
+  width: 415px;
+  height: 55px;
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.form-link-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2a414f;
+  text-align: center;
+  text-decoration: none;
+}
+.form-link-text a {
+  text-decoration: none;
+  color: #ff9900;
+}
+.line {
+  border: 1px solid #95a0a7;
+  width: 145px;
+  height: 0px;
+  margin: 0px 10px;
+}
+.line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-with-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  width: 415px;
+  height: 55px;
+  background: #ffffff;
+}
+.login-with-google img {
+  width: 30px;
+  margin-right: 10px;
+}

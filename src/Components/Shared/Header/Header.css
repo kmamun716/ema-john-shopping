@@ -1,17 +1,25 @@
-.header{
-    height: 80px;
-    background-color: #1C2B35;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 140px;
+.header {
+  height: 80px;
+  background-color: #1c2b35;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 140px;
 }
 
-.header>.nav-link a{
-    margin-left: 32px;
-    color: #FFFFFF;
-    text-decoration: none;
+.header > .nav-link a {
+  margin-left: 32px;
+  color: #ffffff;
+  text-decoration: none;
 }
-.header>.nav-link a:hover{
-    color: #ff6347;
+.header > .nav-link a:hover {
+  color: #ff6347;
+}
+.header > .nav-link > button {
+  border: none;
+  background-color: #1c2b35;
+  color: white;
+  margin-left: 32px;
+  cursor: pointer;
+  font-size: 15px;
 }

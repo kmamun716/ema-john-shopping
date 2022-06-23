@@ -1,0 +1,25 @@
+.reveiw-item{
+    margin: auto;
+    border: 1px solid #95A0A7;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+.item-details{
+    display: flex;
+    gap: 10px;
+}
+.item-details img{
+    width: 30%;
+}
+.delete-icon{
+    color: #EB5757;
+    background-color: #EB57574D;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
